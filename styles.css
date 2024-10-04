@@ -181,11 +181,11 @@ body {
 }
 .group-1 .frame-1 p {
   text-align: center;
-  font-family: Inter;
+  /* font-family: Inter; */
   font-size: 28px;
   font-style: normal;
   font-weight: 600;
-  line-height: 32px; /* 112.5% */
+  line-height: 45px; /* 112.5% */
   background: var(
     --color-gradient-3,
     linear-gradient(180deg, #fef387 0%, #f0b706 100%)
@@ -292,7 +292,7 @@ body {
   font-size: 28px;
   font-style: normal;
   font-weight: 600;
-  line-height: 32px; /* 112.5% */
+  line-height: 45px; /* 112.5% */
   background: var(
     --color-gradient-3,
     linear-gradient(180deg, #fef387 0%, #f0b706 100%)
@@ -377,7 +377,7 @@ th {
   font-size: 28px;
   font-style: normal;
   font-weight: 600;
-  line-height: 32px; /* 112.5% */
+  line-height: 45px; /* 112.5% */
   background: var(
     --color-gradient-3,
     linear-gradient(180deg, #fef387 0%, #f0b706 100%)
@@ -493,7 +493,7 @@ th {
   font-size: 32px;
   font-style: normal;
   font-weight: 700;
-  line-height: 36px; /* 112.5% */
+  line-height: 45px; /* 112.5% */
   text-transform: uppercase;
   background: var(
     --color-gradient-3,
