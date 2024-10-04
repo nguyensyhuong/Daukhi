@@ -534,6 +534,7 @@ th {
   flex-direction: column;
   align-items: flex-start;
   gap: 10px;
+  width: 100%;
 }
 .form-container input {
   display: flex;
@@ -600,8 +601,8 @@ th {
 }
 .seven-section .logo {
   display: flex;
-  width: 200px;
-  height: 200px;
+  width: 150px;
+  height: 150px;
   justify-content: center;
   align-items: center;
   gap: 10px;
@@ -619,10 +620,10 @@ th {
 .seven-section .information h1 {
   margin: 0;
   font-family: Inter;
-  font-size: 24px;
+  font-size: 18px;
   font-style: normal;
   font-weight: 800;
-  line-height: 40px; /* 150% */
+  line-height: 27px; /* 150% */
   text-transform: uppercase;
   background: var(
     --color-gradient-3,
@@ -641,21 +642,22 @@ th {
   margin: 0;
   color: #fff;
   font-family: Inter;
-  font-size: 16px;
+  font-size: 12px;
   font-style: normal;
   font-weight: 400;
-  line-height: 28px; /* 225% */
+  line-height: 18px; /* 225% */
 }
 .social-info {
   display: inline-flex;
   align-items: flex-end;
-  gap: 21px;
+  gap: 10px;
+  width: calc(100% - 500px);
 }
 .social-info p {
   margin: 0;
   color: var(--color-white, #fff);
   font-family: Inter;
-  font-size: 16px;
+  font-size: 12px;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
