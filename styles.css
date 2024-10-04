@@ -656,14 +656,21 @@ th {
   }
   body {
     background-color: #000;
+    align-items: center !important;
   }
   .wrapper {
     display: none;
   }
+  .mobile {
+    display: block;
+    width: 100%;
+    /* padding: 0px 30px; */
+    position: relative;
+  }
   .wrapper-mobile {
     display: block;
-    width: 100vw;
-    height: 100vw;
+    width: 100vh !important;
+    height: 100vh !important;
     /* margin-left: 20px; */
     padding-top: 300px;
     flex-shrink: 0;
@@ -673,6 +680,9 @@ th {
   }
   .second-section {
     padding: 20px 0;
+  }
+  .first-block-wrapper {
+    width: 100vh !important;
   }
   .first-block {
     flex-direction: column;
@@ -712,7 +722,7 @@ th {
     margin-left: 20px;
   }
   .group-2 .frame-item {
-    width: calc(100vw - 40px);
+    width: calc(100vh - 40px);
     height: 500px;
   }
   .group-2 .frame-item .content-style {
@@ -723,6 +733,10 @@ th {
   }
   .mobile-number {
     color: var(--color-gradient-3, #fef387) !important;
+  }
+  .first-content {
+    align-items: center !important;
+    padding: 0 50px;
   }
   .mobile-text {
     color: #fff !important;
@@ -741,12 +755,14 @@ th {
   }
   .third-section {
     padding: 50px 20px;
+    width: 100vh !important;
   }
   .third-section .frame-1 p {
     font-size: 36px;
   }
   .four-section {
     padding: 50px 20px;
+    width: 100vh !important;
   }
   .four-section .frame-1 p {
     font-size: 36px;
@@ -798,6 +814,7 @@ th {
   }
   .five-section {
     flex-direction: column;
+    width: 100vh !important;
   }
   .form-wrapper {
     width: 100vh !important;
@@ -824,6 +841,9 @@ th {
   .form-button p {
     font-size: 28px !important;
   }
+  .six-section {
+    width: 100vh !important;
+  }
   .six-section p {
     font-size: 48px !important;
     line-height: 54px !important; /* 112.5% */
@@ -832,6 +852,7 @@ th {
     flex-direction: column;
     align-items: center;
     padding: 30px 35px;
+    width: 100vh !important;
   }
   .seven-section .information {
     width: calc(100vh - 100px);
@@ -848,8 +869,11 @@ th {
     width: calc(100vh - 100px);
     align-self: flex-start;
     margin-top: 20px;
+    display: block;
+    margin-bottom: 20px;
   }
   .social-info p {
     font-size: 32px;
+    margin-bottom: 20px;
   }
 }
